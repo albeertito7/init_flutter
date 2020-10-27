@@ -1,0 +1,12 @@
+Flutter App Structure
+
+platform specific folders
+    - android folder
+    - ios folder
+
+lib folder
+    - where the 99% of our code will take place
+    - the source code for our app is gonna going in here
+
+test folder
+    - any kind of test files to test the app
