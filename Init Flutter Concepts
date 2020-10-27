@@ -3,3 +3,37 @@ Init Flutter Concepts
 - mobile UI framework for creating natvies apps for IOS and Android
 - single code base - DART
 - only write the app once for multiple devices
+
+- good layout methodology borrowed from responsive web
+- very smooth and quick experience runnning apps
+- works well with firebase as a backend
+- uses DART, which is really easy language to pick up
+- uses material design out-of-the-box
+- great docs and guides on the Flutter website
+
+- using android studio:
+	- install flutter plugin
+	- install dart plugin
+
+
+WIDGETS
+
+- everything inside the interface/app will be a widget, composing the content as components
+- there're a lot of widgets pre-build to use easily
+- some kind: text widget, button widget, row widget, column widget, image widget
+- the widgets are fully customisable, using its properties: style, color, textAlign, overflow, ... etc
+- each widget has its own programmable class
+- we implement this widgets using DART: a programming language
+- the idea is make a widget tree for each interface/screen
+
+
+DART
+
+- programming language developed by google
+- compiled to javascript, and then executed
+- staticly type program language -> you won't be able to change the type of an initialized variable
+
+
+** I'M USING SUBLIME TEXT WITH THE DART PACKAGE INSTALLED TO MAKE THE FIRST PROGRAM TESTS **
+** YOU CAN ALSO USE OTHERS LIKE VISUAL STUDIO CODE, WHICH HAS A DART PLUGIN TOO **
+** A PART FROM THAT, TO EXECUTE THESE FILES I'VE INSTALLED INTO MY MACHINE USING 'BREW' THE DART SDK **
