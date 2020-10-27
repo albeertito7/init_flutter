@@ -37,5 +37,5 @@ String greeting() {
   return 'Greetings, my friends!';
 }
 
-// we can convert the funciont into a arrow function
+// we can convert the funcion into an arrow function when using one returning line
 int getAge() => 24;
