@@ -2,6 +2,16 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Text('hey')
+    theme: ThemeData(
+      primarySwatch: Colors.lightGreen,
+      visualDensity: VisualDensity.adaptivePlatformDensity,
+    ),
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text("my first app"),
+        centerTitle: true,
+      ),
+      body: Text('hello my friends'),
+    ),
   ));
 }
