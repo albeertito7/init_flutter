@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,13 +11,23 @@ void main() {
     ),
     home: Scaffold(
       appBar: AppBar(
-        title: Text("my first app"),
+        title: Text(
+          'my first app',
+          style: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.white,
+          ),
+        ),
         centerTitle: true,
+        backgroundColor: Colors.greenAccent[400],
       ),
       body: Center(
         child: Text('hello my friends'),
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: () {},
         child: Center(
           child: Text('click'),
         )
