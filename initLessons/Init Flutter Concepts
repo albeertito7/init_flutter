@@ -43,3 +43,12 @@ HOT RELOAD
 
 - whenever we make a change in the code, the app can auto reload in the previous screen
 - we need to use stateless widgets for this purpose
+
+
+STATELESS WIDGETS
+
+- the state of the widget cannot change over time
+
+STATEFUL WIDGETS
+
+- the state of the widget can change over time
