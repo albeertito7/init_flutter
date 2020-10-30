@@ -36,6 +36,14 @@ void main() {
   ));
 }
 
+// First Stateless Widget
+class test extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
 /* Scaffold Widget
 * for general layouts of our apps
 * is a wrapper for many widgets
