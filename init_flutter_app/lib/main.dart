@@ -37,10 +37,11 @@ void main() {
 }
 
 // First Stateless Widget
-class test extends StatelessWidget {
+class Home extends StatelessWidget {
+  // main entrance, need to return the widget component
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(); // return a widget tree building the home screen
   }
 }
 
