@@ -48,6 +48,7 @@ HOT RELOAD
 STATELESS WIDGETS
 
 - the state of the widget cannot change over time
+- for instance, the layouts, colors or any date used inside have to be final and cannot change while using the app
 
 STATEFUL WIDGETS
 
