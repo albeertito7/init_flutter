@@ -37,3 +37,9 @@ DART
 ** I'M USING SUBLIME TEXT WITH THE DART PACKAGE INSTALLED TO MAKE THE FIRST PROGRAM TESTS **
 ** YOU CAN ALSO USE OTHERS LIKE VISUAL STUDIO CODE, WHICH HAS A DART PLUGIN TOO **
 ** A PART FROM THAT, TO EXECUTE THESE FILES I'VE INSTALLED INTO MY MACHINE USING 'BREW' THE DART SDK **
+
+
+HOT RELOAD
+
+- whenever we make a change in the code, the app can auto reload in the previous screen
+- we need to use stateless widgets for this purpose
