@@ -17,7 +17,7 @@ void main() {
 class Home extends StatelessWidget {
   // main entrance, need to return the widget component
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // flutter detects the changes inside build functions and enables hot reload by recalling them
     return Scaffold(
       appBar: AppBar(
         title: Text(
