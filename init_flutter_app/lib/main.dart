@@ -9,7 +9,16 @@ void main() {
       primarySwatch: Colors.blue,
       visualDensity: VisualDensity.adaptivePlatformDensity,
     ),
-    home: Scaffold(
+    home: Home()
+  ));
+}
+
+// First Stateless Widget
+class Home extends StatelessWidget {
+  // main entrance, need to return the widget component
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text(
           'my first app',
@@ -27,21 +36,12 @@ void main() {
         child: Text('hello my friends'),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Center(
-          child: Text('click'),
-        )
+          onPressed: () {},
+          child: Center(
+            child: Text('click'),
+          )
       ) ,
-    ),
-  ));
-}
-
-// First Stateless Widget
-class Home extends StatelessWidget {
-  // main entrance, need to return the widget component
-  @override
-  Widget build(BuildContext context) {
-    return Container(); // return a widget tree building the home screen
+    ); // return a widget tree building the home screen
   }
 }
 
